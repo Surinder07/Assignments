@@ -7,6 +7,7 @@ public class Usercommand {
         int z=0;
         while(n>=0)
         {
+            //add a message here for the user that when you enter negative digit, program is going to end.
             System.out.println("Enter the number");
             n=s.nextInt();
             if(n>0){
